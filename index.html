@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ldj</title>
+    <style type="text/css">
+        #ll{
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;   
+        }
+    </style>
+</head>
+<body>
+    <div style="margin-left:300px;width:10px;height:20px;background-color: chocolate ">
+        <p id="test" onclick="aa()">J212.123</p>
+    </div>
+</body>
+<script src="js/my.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/layer.js"></script>
+<script type="text/javascript">
+    abc='<div id="ll">sdfg</div>'
+    function aa(){
+        layer.tips(abc, '#test', {
+          tips: [1, '#3595CC'],
+          time:20000 
+         })
+    }
+</script>
+</html>
